@@ -17,6 +17,7 @@
 @@||nid.naver.com^$stealth=dpi
 ! Soop 숲
 vod.sooplive.co.kr###player > div.adballoon_icon
+vod.sooplive.co.kr##.adballoon_icon
 ! DCinside 디시인사이드
 m.dcinside.com###recom_box1
 m.dcinside.com##[id^="img_comment_div"]
