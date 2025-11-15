@@ -27,3 +27,4 @@ naver.com###MM_search_container
 ! Namuwiki 나무위키
 namu.wiki##div[class][id]:empty
 [$domain=/^messitv\d+.com/]##[class='baner']
+[$domain=/^torrentsee\d+.com/]##.adver-list
