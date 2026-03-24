@@ -1,5 +1,5 @@
 ! Title: tdiea234 ad filter android
-! Version: 1.0.5
+! Version: 1.0.6
 ! description: ad filter android
 
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; bottom: 0px;"])
@@ -17,8 +17,6 @@
 @@||nid.naver.com^$stealth=dpi
 
 ! Soop 숲
-vod.sooplive.co.kr###player > div.adballoon_icon
-vod.sooplive.co.kr##.adballoon_icon
 play.sooplive.com###ad_video
 play.sooplive.com##.text_output
 play.sooplive.com##.promotion_area
