@@ -16,7 +16,7 @@
 @@||ses.signgate.com^$stealth=dpi
 @@||nid.naver.com^$stealth=dpi
 
-! Soop 숲
+! Suup 숲 PC
 play.sooplive.com##.adballoon_icon
 play.sooplive.com###ad_video
 play.sooplive.com##.text_output
@@ -50,6 +50,25 @@ sooplive.com##.Advertising_Output_Area
 ch.sooplive.com###side-layer
 sooplive.com###layout_container__S7ueh > div.home_innerContainerWrapper__WSy5r:last-child > div.home_innerContainer__eEPos > div.FloatingBanner_floatingBannerWrapper__cdLt4.home_floatingBannerMain__FMgR1:nth-child(7)
 sooplive.com###layout_container__S7ueh > div.home_innerContainerWrapper__WSy5r:last-child > div.home_innerContainer__eEPos > div.FloatingBanner_floatingBannerWrapper__cdLt4.home_floatingBannerMain__FMgR1:nth-child(11)
+
+!Suup 숲 Mobile
+||vod-mplayer.sooplive.com^$app=kr.co.nowcom.mobile.afreeca
+||deapi.sooplive.com^$app=kr.co.nowcom.mobile.afreeca
+main-player.sooplive.com.service1.gscdn.net
+deapi.sooplive.com
+deapi.afgslb.sooplive.com
+vod-mplayer.sooplive.com
+vod-mplayer.sooplive.com.service1.gscdn.net
+profile.img.sooplive.com
+profile.img.afgslb.sooplive.com
+vod.afgslb.sooplive.com
+sooplive.com##.balloon
+sooplive.com##.adballoon
+sooplive.com##[class*="balloon"]
+sooplive.com##[id*="balloon"]
+sooplive.com##.chat_ad
+sooplive.com##.gift_effect
+sooplive.com##.support_effect
 
 ! DCinside 디시인사이드
 m.dcinside.com##+js(nostif, adblock_detected7)
