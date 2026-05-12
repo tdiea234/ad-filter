@@ -1,5 +1,5 @@
 ! Title: tdiea234 ad filter android
-! Version: 1.0.9
+! Version: 1.1.0
 ! description: ad filter android
 
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; bottom: 0px;"])
@@ -82,5 +82,11 @@ naver.com###MM_search_container
 namu.wiki##div[class][id]:empty
 [$domain=/^messitv\d+.com/]##[class='baner']
 [$domain=/^torrentsee\d+.com/]##.adver-list
-
+[$domain=/^torrentsee\d+.com/]##div.container.mobile_pd_top.mb40.mt15:nth-child(2) > div.row:last-child > div.col-middle.nplr.mmri15:nth-child(2) > div.mmnewlist.mb11.row:last-child > div.col-md-12.nplr.mmmb11 > div:nth-child(3)
+[$domain=/^torrentsee\d+.com/]##.mmbannel
+! YGOSU 와이고수
 m.ygosu.com##.notice, .first_notice
+! MLBPark
+mlbpark.donga.com##tr:has(td:first-child:has-text(공지))
+hulk24.com##.contents_box_left
+hulk24.com##.right_fix_zone
