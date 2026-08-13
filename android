@@ -1,5 +1,5 @@
 ! Title: tdiea234 ad filter android
-! Version: 1.1.1
+! Version: 1.2.0
 ! description: ad filter android
 
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; bottom: 0px;"])
@@ -88,5 +88,11 @@ namu.wiki##div[class][id]:empty
 m.ygosu.com##.notice, .first_notice
 ! MLBPark
 mlbpark.donga.com##tr:has(td:has-text(담당자)), tr:has(td:has-text(포인트관리자))
+mlbpark.donga.com##tr:has(td:first-child:has-text(공지))
+mlbpark.donga.com##.coupang_cont
+mlbpark.donga.com##[id^='naver_cont']
+mlbpark.donga.com##.team_rank_wrap
+
 hulk24.com##.contents_box_left
 hulk24.com##.right_fix_zone
+livetv01.spotv01.com##.chat-section, .chat-iframe
