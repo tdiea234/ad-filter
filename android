@@ -1,5 +1,5 @@
 ! Title: tdiea234 ad filter android
-! Version: 1.2.0
+! Version: 1.2.2
 ! description: ad filter android
 
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; bottom: 0px;"])
@@ -84,11 +84,17 @@ namu.wiki##div[class][id]:empty
 [$domain=/^torrentsee\d+.com/]##.adver-list
 [$domain=/^torrentsee\d+.com/]##div.container.mobile_pd_top.mb40.mt15:nth-child(2) > div.row:last-child > div.col-middle.nplr.mmri15:nth-child(2) > div.mmnewlist.mb11.row:last-child > div.col-md-12.nplr.mmmb11 > div:nth-child(3)
 [$domain=/^torrentsee\d+.com/]##.mmbannel
+
+! Tistory
+tistory.com##[href^="https://link.coupang.com/"]
+tistory.com##[href^="https://s.click.aliexpress.com/"]
+
 ! YGOSU 와이고수
 m.ygosu.com##.notice, .first_notice
+m.ygosu.com##.board_category_wrap
+
 ! MLBPark
-mlbpark.donga.com##tr:has(td:has-text(담당자)), tr:has(td:has-text(포인트관리자))
-mlbpark.donga.com##tr:has(td:first-child:has-text(공지))
+mlbpark.donga.com##[class='items']
 mlbpark.donga.com##.coupang_cont
 mlbpark.donga.com##[id^='naver_cont']
 mlbpark.donga.com##.team_rank_wrap
