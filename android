@@ -91,7 +91,7 @@ tistory.com##[href^="https://s.click.aliexpress.com/"]
 
 ! YGOSU 와이고수
 m.ygosu.com##.notice, .first_notice
-m.ygosu.com##.board_category_wrap
+m.ygosu.com##.board_category
 
 ! MLBPark
 mlbpark.donga.com##[class='items']
